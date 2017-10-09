@@ -1,0 +1,10 @@
+get
+curl http://localhost:8080/service/oi
+
+post
+curl -H "Content-Type: application/json" -X POST -d '{"username":"xyz","password":"xyz"}' http://localhost:8080/service/tchau
+
+
+get de teste
+
+curl -i "http://localhost:8080/clientes/contascorrentes/44?dataMovimento=20171020&motivoMovimento=000018"
